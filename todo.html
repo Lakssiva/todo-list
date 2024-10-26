@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-do list</title>
+        <meta name="viewport"content="width=device-width,initial-scale=1">
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="todo">
+            <h2>To-do List <img src="data:image/png;base64,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"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!--<li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>-->
+            </ul>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+</html>
